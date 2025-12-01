@@ -1,7 +1,7 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFrameworks>net462;net48;net6.0;net7.0;net8.0;net10.0</TargetFrameworks>
+    <TargetFrameworks>net8.0;net10.0</TargetFrameworks>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <Version>5.0.1</Version>
     <Authors>Joel Christner</Authors>
@@ -15,8 +15,6 @@
     <PackageTags>mesh network networking tcp ssl framing distributed cluster event health healthy</PackageTags>
     <PackageIconUrl></PackageIconUrl>
     <PackageLicenseFile>LICENSE.md</PackageLicenseFile>
-    <PackageIcon>watson.png</PackageIcon>
-    <ApplicationIcon>Assets\watson.ico</ApplicationIcon>
     <GenerateDocumentationFile>True</GenerateDocumentationFile>
     <DocumentationFile>WatsonMesh.xml</DocumentationFile>
     <Title>WatsonMesh</Title>
@@ -45,9 +43,6 @@
     <None Remove="LICENSE.md" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Content Include="Assets\watson.ico" />
-  </ItemGroup>
 
   <ItemGroup>
     <PackageReference Include="System.Text.Json" Version="8.0.1" />
@@ -63,10 +58,6 @@
       <Pack>True</Pack>
       <PackagePath></PackagePath>
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Include="Assets\watson.png">
-      <Pack>True</Pack>
-      <PackagePath></PackagePath>
     </None>
   </ItemGroup>
 
