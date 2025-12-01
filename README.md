@@ -1,10 +1,10 @@
-![alt tag](https://github.com/jchristn/watsonmesh/blob/master/assets/watson.ico)
+
 
 # Watson Mesh Networking
 
-[![NuGet Version](https://img.shields.io/nuget/v/WatsonMesh.svg?style=flat)](https://www.nuget.org/packages/WatsonMesh/) [![NuGet](https://img.shields.io/nuget/dt/WatsonMesh.svg)](https://www.nuget.org/packages/WatsonMesh) 
 
-A simple C# mesh networking library using TCP (with or without SSL) with integrated framing for reliable transmission and receipt of data amongst multiple nodes.  Tested on Windows and Ubuntu.
+
+A simple C# mesh networking library using TCP (with or without SSL) with integrated framing for reliable transmission and receipt of data amongst multiple nodes.  Tested on Windows and Fedora.
 
 ## New in v5.0.x
 

@@ -1,7 +1,7 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFrameworks>net462;net48;net6.0;net7.0;net8.0</TargetFrameworks>
+    <TargetFrameworks>net462;net48;net6.0;net7.0;net8.0;net10.0</TargetFrameworks>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <Version>5.0.1</Version>
     <Authors>Joel Christner</Authors>
@@ -71,12 +71,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <None Update="Assets\watson.ico">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="Assets\watson.png">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
     <None Update="WatsonMesh.xml">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
