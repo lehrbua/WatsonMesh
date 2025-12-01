@@ -100,7 +100,6 @@
             _TcpClient.Settings.MutuallyAuthenticate = _Settings.MutuallyAuthenticate; 
             _TcpClient.Settings.StreamBufferSize = _Settings.StreamBufferSize; 
 
-            _TcpClient.Events.AuthenticationRequested += MeshClientAuthenticationRequested;
             _TcpClient.Events.AuthenticationSucceeded += MeshClientAuthenticationSucceeded;
             _TcpClient.Events.AuthenticationFailure += MeshClientAuthenticationFailure;
             _TcpClient.Events.ServerConnected += MeshClientServerConnected;
